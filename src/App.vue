@@ -85,14 +85,14 @@ const humanReadable = computed(() => {
 
     result.push(
       `<span data-seg="month"> in ${month
-        .map((m) => getMonthName(m))
+        .map((m: number) => getMonthName(m))
         .join(" and ")}</span>`
     );
 
     if (dayOfWeek.length < 7) {
       result.push(
         `and <span data-seg="day-of-week">on ${dayOfWeek
-          .map((d) => getDayName(d))
+          .map((d: number) => getDayName(d))
           .join(" and ")}</span>`
       );
     }
