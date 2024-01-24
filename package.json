@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "cron-parser": "^4.9.0",
-    "cronstrue": "^2.47.0",
     "dayjs": "^1.11.10",
     "vue": "^3.3.11",
     "vuetify": "^3.5.1"

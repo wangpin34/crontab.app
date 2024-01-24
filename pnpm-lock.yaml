@@ -8,9 +8,6 @@ dependencies:
   cron-parser:
     specifier: ^4.9.0
     version: 4.9.0
-  cronstrue:
-    specifier: ^2.47.0
-    version: 2.47.0
   dayjs:
     specifier: ^1.11.10
     version: 1.11.10
@@ -1251,11 +1248,6 @@ packages:
     engines: {node: '>=12.0.0'}
     dependencies:
       luxon: 3.4.4
-    dev: false
-
-  /cronstrue@2.47.0:
-    resolution: {integrity: sha512-fnFwJy7zslTEz6h7O7BkwgHNBvuuPmkhAYKqPDxK5mBQLz2nG08T9afbnjm+yrvcc/wxrd+otaVSnoXT9ulUOw==}
-    hasBin: true
     dev: false
 
   /cross-spawn@7.0.3:
