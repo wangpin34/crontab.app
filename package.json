@@ -1,0 +1,27 @@
+{
+  "name": "crontab-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "cron-parser": "^4.9.0",
+    "cronstrue": "^2.47.0",
+    "dayjs": "^1.11.10",
+    "vue": "^3.3.11",
+    "vuetify": "^3.5.1"
+  },
+  "devDependencies": {
+    "@unocss/preset-wind": "^0.58.3",
+    "@vitejs/plugin-vue": "^4.5.2",
+    "sass": "^1.70.0",
+    "typescript": "^5.2.2",
+    "unocss": "^0.58.3",
+    "vite": "^5.0.8",
+    "vue-tsc": "^1.8.25"
+  }
+}
